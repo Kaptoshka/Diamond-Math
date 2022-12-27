@@ -1,0 +1,175 @@
+{
+	"frames": {
+		"char_run_1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_2.png": {
+			"frame": {
+				"x": 33,
+				"y": 1,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_3.png": {
+			"frame": {
+				"x": 65,
+				"y": 1,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_4.png": {
+			"frame": {
+				"x": 1,
+				"y": 37,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_5.png": {
+			"frame": {
+				"x": 33,
+				"y": 37,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_6.png": {
+			"frame": {
+				"x": 65,
+				"y": 37,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_7.png": {
+			"frame": {
+				"x": 97,
+				"y": 1,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		},
+		"char_run_8.png": {
+			"frame": {
+				"x": 97,
+				"y": 37,
+				"w": 30,
+				"h": 34
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 34
+			},
+			"sourceSize": {
+				"w": 30,
+				"h": 34
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "char_run.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 128,
+			"h": 72
+		},
+		"scale": "1"
+	}
+}

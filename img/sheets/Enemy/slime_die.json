@@ -1,0 +1,175 @@
+{
+	"frames": {
+		"slime_die_1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_2.png": {
+			"frame": {
+				"x": 35,
+				"y": 1,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_3.png": {
+			"frame": {
+				"x": 1,
+				"y": 28,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_4.png": {
+			"frame": {
+				"x": 35,
+				"y": 28,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_5.png": {
+			"frame": {
+				"x": 1,
+				"y": 55,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_6.png": {
+			"frame": {
+				"x": 35,
+				"y": 55,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_7.png": {
+			"frame": {
+				"x": 69,
+				"y": 1,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		},
+		"slime_die_8.png": {
+			"frame": {
+				"x": 69,
+				"y": 28,
+				"w": 32,
+				"h": 25
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 25
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 25
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "slime_die.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 102,
+			"h": 81
+		},
+		"scale": "1"
+	}
+}

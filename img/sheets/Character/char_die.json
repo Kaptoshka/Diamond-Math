@@ -1,0 +1,255 @@
+{
+	"frames": {
+		"char_die_1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_10.png": {
+			"frame": {
+				"x": 48,
+				"y": 1,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_11.png": {
+			"frame": {
+				"x": 1,
+				"y": 35,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_12.png": {
+			"frame": {
+				"x": 48,
+				"y": 35,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_2.png": {
+			"frame": {
+				"x": 1,
+				"y": 69,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_3.png": {
+			"frame": {
+				"x": 48,
+				"y": 69,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_4.png": {
+			"frame": {
+				"x": 1,
+				"y": 103,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_5.png": {
+			"frame": {
+				"x": 48,
+				"y": 103,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_6.png": {
+			"frame": {
+				"x": 95,
+				"y": 1,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_7.png": {
+			"frame": {
+				"x": 95,
+				"y": 35,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_8.png": {
+			"frame": {
+				"x": 95,
+				"y": 69,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		},
+		"char_die_9.png": {
+			"frame": {
+				"x": 95,
+				"y": 103,
+				"w": 45,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 45,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 45,
+				"h": 32
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "char_die.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 141,
+			"h": 136
+		},
+		"scale": "1"
+	}
+}

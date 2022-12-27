@@ -1,0 +1,135 @@
+{
+	"frames": {
+		"shop_1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 118,
+				"h": 114
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 114
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 114
+			}
+		},
+		"shop_2.png": {
+			"frame": {
+				"x": 121,
+				"y": 1,
+				"w": 118,
+				"h": 114
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 114
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 114
+			}
+		},
+		"shop_3.png": {
+			"frame": {
+				"x": 1,
+				"y": 117,
+				"w": 118,
+				"h": 114
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 114
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 114
+			}
+		},
+		"shop_4.png": {
+			"frame": {
+				"x": 121,
+				"y": 117,
+				"w": 118,
+				"h": 114
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 114
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 114
+			}
+		},
+		"shop_5.png": {
+			"frame": {
+				"x": 241,
+				"y": 1,
+				"w": 118,
+				"h": 114
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 114
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 114
+			}
+		},
+		"shop_6.png": {
+			"frame": {
+				"x": 241,
+				"y": 117,
+				"w": 118,
+				"h": 114
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 114
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 114
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "shop.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 360,
+			"h": 232
+		},
+		"scale": "1"
+	}
+}

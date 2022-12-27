@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="https://pixijs.download/release/pixi.js"></script>
+		<title>noname</title>
+		<style>
+			* {
+				width: 98%;
+				padding: 10;
+				margin: 10;
+				border-radius: 10px;
+				max-height: 750px;
+				background-color: #0000;
+			}
+			#myProgress {
+				width: 100%;
+				background-color: #ddd;
+			}
+
+			#myBar {
+				width: 1%;
+				height: 30px;
+				background-color: #04aa6d;
+			}
+			#game {
+				height: 800px;
+				
+				margin: 0;
+				
+			}
+			@font-face {
+				font-family: Monocraft;
+				src: url('../fonts/Monocraft.otf');
+			}
+		</style>
+	</head>
+	<body>
+		<input id="score" hidden value="-1" />
+		<script src="./node_modules/pixi.js/dist/browser/pixi.min.js"></script>
+		<script src="./node_modules/@pixi/graphics-extras/dist/browser/graphics-extras.min.js"></script>
+		<script src="./node_modules/howler/dist/howler.min.js"></script>
+		<script class="game" src="./main.js"></script>
+	</body>
+</html>
