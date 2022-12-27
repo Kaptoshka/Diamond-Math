@@ -67,7 +67,7 @@ const emptyHeartTexture = PIXI.Texture.from('img/png/Life/empty_heart.png')
 const enemyZone = PIXI.Sprite.from('img/png/GUI/blank_1.png')
 
 let buttonYPosition // позиция по Y для кнопок
-let posX = window.innerWidth * 0.025 //позиция по Х для новых сердец
+let posX = window.innerWidth * 0.03 //позиция по Х для новых сердец
 let score = 0 //очки
 let bit = score.toString().length // разрядность счета
 let lives = 3 //жизни
@@ -76,7 +76,6 @@ let charSpeed = 2
 let backgroundSpeed = 4
 let keys = {}
 let characterPosition = window.innerWidth * 0.15
-let spawnCoef
 let equationAnswer
 let step = 250
 let enemyMoveLeft
@@ -229,7 +228,7 @@ function createEnemySheet() {
 }
 
 function spawnEnemy(spawnCoef) {
-	spawnPosition = character.x + getRandomIntBetween(10, spawnCoef * 4) * 50
+	spawnPosition = character.x + getRandomIntBetween(15, spawnCoef * 4) * 50
 	enemy = new PIXI.AnimatedSprite(enemySheet.slimeSpawnTextures)
 	enemy.position.set(spawnPosition, 485)
 	enemy.anchor.set(0.5)
@@ -254,7 +253,7 @@ function spawnShop(spawnPos) {
 	shop.position.set(spawnPos, 115)
 	shop.scale.set(
 		4 ,
-		3.5 
+		3.5, 
 	)
 
 	app.stage.addChild(shop)
@@ -516,6 +515,7 @@ function correctAnswer() {
 	}
 	scoreText.text = 'SCORE: ' + score
 	setTimeout(() => {
+		run = true
 		slowUnblur()
 		for (let i = 0; i < 4; ++i) {
 			app.stage.removeChild(buttons[i])
@@ -738,6 +738,9 @@ function gameLoop(delta) {
 			}
 			// A || leftArrow
 			if (keys['65'] || keys['37']) {
+				if (run) {
+					character.stop()
+				}
 				character.scale.x = -3
 				run = false
 				character.loop = false
@@ -753,6 +756,9 @@ function gameLoop(delta) {
 				}
 			} else if (keys['68'] || keys['39']) {
 				// D || rightArrow
+				if (run) {
+					character.stop()
+				}
 				charSpeed = 2
 				left = false
 				character.scale.x = 3
