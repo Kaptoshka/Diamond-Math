@@ -434,7 +434,7 @@ function getEquation() {
 		b = getRandomIntBetween(1, 10)
 		answer = a * b
 		answTexts[3].text = a + '  •  ???  = ' + answer
-	} else {
+	} else if (sign == 4) {
 		a = getRandomIntBetween(1, 10)
 		b = getRandomIntBetween(1, 10)
 		answer = divNumbers[a][b - 1] / b
@@ -489,13 +489,15 @@ function onButtonDown() {
 		correctAnswer()
 		return
 	} else {
-		app.stage.removeChild(this)
-		for (let i = 0; i < 4; ++i) {
-			if (answTexts[i].text == this.value) {
-				app.stage.removeChild(answTexts[i])
-			}	
-		}
 		wrongAnswer()
+		setTimeout(() => {
+			for (let i = 0; i < 4; ++i) {
+				if (answTexts[i].text == this.value) {
+					app.stage.removeChild(answTexts[i])
+				}	
+			}
+			app.stage.removeChild(this)
+		}, 1000);
 		return
 	}
 }
@@ -536,6 +538,9 @@ function correctAnswer() {
 }
 
 function wrongAnswer() {
+	for (let i = 0; i < 3; ++i) {
+		buttons[i].interactive = false
+	}
 	lives -= 1
 	livesUpdate()
 	enemy.textures = enemySheet.slimeAttackTextures
@@ -546,6 +551,9 @@ function wrongAnswer() {
 		character.loop = false
 		character.play()
 		setTimeout(() => {
+			for (let i = 0; i < 3; ++i) {
+				buttons[i].interactive = true
+			}
 			enemy.textures = enemySheet.slimeIdleTextures
 			enemy.loop = true
 			enemy.play()
@@ -713,7 +721,7 @@ function gameLoop(delta) {
 			app.stage.removeChild(shop);
 			spawnShop(getRandomIntBetween(3, 5) * 1000);
 		}
-		if (!fightCheck) {
+		if (!fightCheck && !gameStart) {
 			if ((step > 0) && (enemyMoveLeft)) {
 				if (step - 1 == 0) {
 					enemyMoveLeft = false
@@ -736,8 +744,8 @@ function gameLoop(delta) {
 				enemy.loop = true;
 				enemy.play();
 			}
-			// A || leftArrow
 			if (keys['65'] || keys['37']) {
+				// A || leftArrow
 				if (run) {
 					character.stop()
 				}
@@ -784,7 +792,7 @@ function gameLoop(delta) {
 					character.play()
 				}
 			}
-		} else {
+		} else if (fightCheck) {
 			if (solved) {
 				backgroundSprite.filters = [blurFilter]
 				shop.filters = [blurFilter]
